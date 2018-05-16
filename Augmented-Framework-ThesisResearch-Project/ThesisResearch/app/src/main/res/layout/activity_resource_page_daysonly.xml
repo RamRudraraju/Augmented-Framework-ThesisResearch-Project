@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_admin_success"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rrkr2016.javaclassname.ResourcePage">
+
+    <EditText
+        android:layout_width="60dp"
+        android:hint="Year"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:layout_alignTop="@+id/etedid"
+        android:layout_alignStart="@+id/etsyid"
+        android:id="@+id/eteyid" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:hint="Year"
+        android:id="@+id/etsyid"
+        android:layout_alignBaseline="@+id/etsdid"
+        android:layout_alignBottom="@+id/etsdid"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_width="60dp"
+        android:text=""
+        android:hint="Day"
+        android:ems="10"
+        android:id="@+id/etsdid"
+        android:layout_alignBaseline="@+id/etsmid"
+        android:layout_alignBottom="@+id/etsmid"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:hint="Day"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/etedid"
+        android:layout_alignBaseline="@+id/etemid"
+        android:layout_alignBottom="@+id/etemid"
+        android:layout_alignStart="@+id/etsdid" />
+
+    <EditText
+
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_width="60dp"
+        android:hint="Month"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/etemid"
+        android:layout_marginBottom="29dp"
+        android:layout_above="@+id/bSubmit"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bSubmit"
+        android:background="#3F51B5"
+        android:textColor="#FFF"
+        android:layout_marginBottom="122dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Month"
+        android:ems="10"
+        android:id="@+id/etsmid"
+        android:layout_above="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:text="Enter Starting Date"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:textSize="15sp"
+        android:textColor="#3F51B5"
+        android:id="@+id/textView3"
+        android:textAlignment="center"
+        android:layout_above="@+id/etsdid"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:text="Enter Ending Date"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/textView4"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@+id/etedid"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="15sp"
+        android:textColor="#3F51B5"
+        android:id="@+id/tit"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

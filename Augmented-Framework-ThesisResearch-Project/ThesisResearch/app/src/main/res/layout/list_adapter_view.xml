@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/horizLL">
+
+        <TextView
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/ID" />
+
+        <TextView
+
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/RN" />
+
+        <TextView
+
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/A" />
+
+        <TextView
+
+            android:textSize="20sp"
+            android:layout_weight="25"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/SM" />
+
+        <TextView
+
+            android:textSize="20sp"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/SD" />
+        <TextView
+
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/SY" />
+
+        <TextView
+
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/EM" />
+
+        <TextView
+
+            android:textSize="20sp"
+            android:layout_weight="25"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/ED" />
+
+        <TextView
+
+            android:textSize="20sp"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/EY" />
+
+        <TextView
+
+            android:textSize="20sp"
+            android:layout_weight="25"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/ST" />
+
+        <TextView
+
+            android:textSize="20sp"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/ET" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

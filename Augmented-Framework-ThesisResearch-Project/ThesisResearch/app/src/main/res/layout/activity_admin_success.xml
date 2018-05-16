@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_admin_success"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rrkr2016.javaclassname.AdminSuccess">
+
+    <EditText
+
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_width="60dp"
+        android:text=""
+        android:hint="SD"
+        android:ems="10"
+        android:layout_alignTop="@+id/etsmid"
+        android:layout_toEndOf="@+id/etsmid"
+        android:layout_marginStart="21dp"
+        android:id="@+id/etsdid" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:hint="SY"
+        android:layout_alignTop="@+id/etsdid"
+        android:layout_toEndOf="@+id/etsdid"
+        android:layout_marginStart="26dp"
+        android:id="@+id/etsyid" />
+
+    <EditText
+
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_width="60dp"
+        android:hint="EM"
+        android:text=""
+        android:ems="10"
+        android:layout_below="@+id/etsmid"
+        android:layout_marginTop="12dp"
+        android:id="@+id/etemid"
+        android:layout_alignStart="@+id/etsmid" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:hint="ED"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:layout_alignTop="@+id/etemid"
+        android:layout_alignStart="@+id/etsdid"
+        android:id="@+id/etedid"
+        android:layout_toStartOf="@+id/etsyid" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:hint="EY"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:layout_alignTop="@+id/etedid"
+        android:layout_alignStart="@+id/etsyid"
+        android:id="@+id/eteyid" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="SM"
+        android:ems="10"
+        android:layout_marginTop="21dp"
+        android:id="@+id/etsmid"
+        android:layout_marginStart="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="RName"
+        android:text=""
+        android:ems="10"
+        android:layout_alignTop="@+id/etsmid"
+        android:id="@+id/rnid"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:layout_marginStart="33dp"
+        android:id="@+id/etDuration"
+        android:layout_alignBaseline="@+id/etStMin"
+        android:layout_alignBottom="@+id/etStMin"
+        android:layout_toEndOf="@+id/etStMin"
+        android:hint="Uni ID" />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etStMin"
+        android:hint="ETime"
+        android:layout_alignBaseline="@+id/etStHour"
+        android:layout_alignBottom="@+id/etStHour"
+        android:layout_alignStart="@+id/etemid" />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="28dp"
+        android:id="@+id/etStHour"
+        android:hint="STime"
+        android:layout_below="@+id/etemid"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Add Resource "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etStMin"
+        android:layout_toStartOf="@+id/etStMin"
+        android:background="#3F51B5"
+        android:textColor="#FFF"
+        android:layout_marginTop="11dp"
+        android:id="@+id/bSubmit" />
+
+    <Button
+        android:text="View List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bViewListID"
+        android:background="#3F51B5"
+        android:textColor="#FFF"
+        android:layout_above="@+id/idid"
+        android:layout_alignStart="@+id/eteyid" />
+
+    <Button
+        android:text="Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idid"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:background="#3F51B5"
+        android:textColor="#FFF"
+        android:id="@+id/bDeleteRecordID" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:id="@+id/idid"
+        android:hint="ID"
+        android:layout_below="@+id/bSubmit"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bEditRecordID"
+        android:background="#3F51B5"
+        android:textColor="#FFF"
+        android:layout_alignBaseline="@+id/bDeleteRecordID"
+        android:layout_alignBottom="@+id/bDeleteRecordID"
+        android:layout_alignStart="@+id/bViewListID" />
+
+    <Button
+        android:text="Delete Less Than "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bDeleteRecordsLessthanETID"
+        android:layout_alignParentBottom="true"
+        android:background="#3F51B5"
+        android:textColor="#FFF"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+
+        android:id="@+id/dletid"
+        android:hint="Delete L ET"
+        android:layout_below="@+id/bEditRecordID"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
